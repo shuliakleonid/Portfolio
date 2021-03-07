@@ -1,0 +1,21 @@
+.wrapper {
+    padding: 5rem;
+    max-width: 120rem;
+    background: rgb(62, 110, 78);
+    margin: 0 auto;
+}
+
+.blockAboutMe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*max-width: 120rem;*/
+    border: 1px solid #fff;
+
+}
+
+.textBlock {
+    max-width: 20rem;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,31 @@
+.wrapper {
+    padding: 0 5rem;
+    max-width: 120rem;
+    background: rgba(0,0,0,.5);
+
+}
+.header{
+    display: flex;
+    /*align-items: flex-start;*/
+    justify-content: space-between;
+    border: 1px solid #fff;
+
+
+}
+.title {
+    margin-left: 2rem;
+    border: 1px solid #fff;
+}
+
+.nav, .nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 0;
+}
+
+.nav > ul li {
+margin-left: 1rem;
+    list-style-type: none;
+}
