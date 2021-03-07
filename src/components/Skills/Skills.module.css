@@ -1,0 +1,23 @@
+.cardSkillElement {
+    padding: 0 5rem;
+    max-width: 120rem;
+    text-align: center;
+    background: rgb(75, 169, 142);
+}
+
+.title {
+    margin: 0;
+    font-size: 3rem
+}
+
+.skillsElements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.textBlock {
+    max-width: 20rem;
+    border: 1px solid #fff;
+}

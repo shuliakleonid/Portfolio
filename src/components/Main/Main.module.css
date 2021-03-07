@@ -9,10 +9,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-    /*max-width: 120rem;*/
     border: 1px solid #fff;
-
 }
 
 .textBlock {

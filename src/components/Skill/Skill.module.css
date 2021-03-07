@@ -1,0 +1,21 @@
+.cardSkillElement {
+
+    width: 20rem;
+    background: rgba(88, 47, 55, .3);
+    border: 1px solid #fff;
+
+}
+
+.skillLogo {
+    max-width: 4rem;
+}
+
+.skillTitle {
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+.skillText {
+    border: 1px solid #fff;
+
+}
