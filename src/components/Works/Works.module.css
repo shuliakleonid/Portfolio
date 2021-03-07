@@ -1,0 +1,20 @@
+.wrapper {
+    padding: 0 5rem;
+    max-width: 120rem;
+    text-align: center;
+    background: rgb(65, 109, 200);
+}
+
+.title {
+    margin: 0;
+    font-size: 3rem
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
