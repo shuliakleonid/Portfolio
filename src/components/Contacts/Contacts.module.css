@@ -1,8 +1,8 @@
 .wrapper {
+    /*max-width: 80%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 120rem;
     background: rgba(93, 19, 89,.3);
 }
 

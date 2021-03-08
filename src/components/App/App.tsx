@@ -18,8 +18,8 @@ function App() {
         <Works />
         <RemoteWork />
         <Contacts />
-        <Footer />
       </main>
+        <Footer />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 .wrapper {
     padding: 5rem;
-    max-width: 120rem;
+    /*max-width: 80%;*/
     background: rgb(62, 110, 78);
-    margin: 0 auto;
+
 }
 
 .blockAboutMe {
