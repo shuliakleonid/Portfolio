@@ -29,3 +29,13 @@
     margin-left: 1rem;
     list-style-type: none;
 }
+@media screen and (max-width: 992px) {
+    .nav, .nav > ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #fff;
+        padding: 0;
+    }
+}

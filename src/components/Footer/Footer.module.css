@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5rem;
+    max-width: 120rem;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+.items > li {
+    list-style-type: none;
+    width: 20rem;
+    height: 20rem;
+    background: #f68c8c;
+}
+
+.items > li:nth-child(odd) {
+    background: #669851;
+}

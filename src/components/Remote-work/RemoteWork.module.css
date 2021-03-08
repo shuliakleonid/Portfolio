@@ -1,13 +1,12 @@
 .wrapper {
     padding: 5rem;
     max-width: 120rem;
-    background: rgb(62, 110, 78);
-    margin: 0 auto;
+    background: rgb(106, 162, 86);
 }
 
-.blockAboutMe {
+.title {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     border: 1px solid #fff;
 }
@@ -15,10 +14,4 @@
 .textBlock {
     max-width: 20rem;
     border: 1px solid #fff;
-}
-
-@media screen and (max-width: 600px) {
-    .photo {
-        width: 10rem;
-    }
 }

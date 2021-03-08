@@ -1,21 +1,27 @@
-.cardSkillElement {
-
+.wrapper {
+    margin: 0 auto;
     width: 20rem;
     background: rgba(88, 47, 55, .3);
     border: 1px solid #fff;
 
 }
 
-.skillLogo {
+.logo {
     max-width: 4rem;
 }
 
-.skillTitle {
+.title {
     margin: 2rem 0;
     font-size: 2rem;
 }
 
-.skillText {
+.text {
     border: 1px solid #fff;
 
+}
+
+@media screen and (max-width: 400px) {
+    .wrapper {
+        margin-bottom: 1rem;
+    }
 }

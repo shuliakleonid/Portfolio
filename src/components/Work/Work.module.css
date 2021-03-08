@@ -1,5 +1,6 @@
 .wrapper {
-    width: 20rem;
+    margin: 0 auto;
+    max-width: 30rem;
     background: rgb(130, 157, 89);
     border: 1px solid #ffffff;
 }
@@ -16,5 +17,15 @@
 }
 
 .image {
-    width: 20rem;
+    width: 30rem;
+}
+
+@media screen and (max-width: 400px) {
+    .image {
+        width: 15rem;
+    }
+
+    .wrapper {
+        margin-bottom: 1rem;
+    }
 }
