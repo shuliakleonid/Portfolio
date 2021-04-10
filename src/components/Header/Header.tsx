@@ -5,15 +5,15 @@ const Header = () => {
   return (
     <div className={s.wrapper}>
       <header className={s.header}>
-        <h1 className={s.title}>Shuliak Leonid</h1>
         <nav className={s.nav}>
           <ul>
-            <li>Main</li>
+            <li>Home</li>
+            <li>About</li>
             <li>Skills</li>
-            <li>My works</li>
-            <li>Contact me!</li>
+            <li>Works</li>
           </ul>
         </nav>
+        <p className={s.title}>Contacts</p>
       </header>
     </div>
   );

@@ -7,6 +7,7 @@ import Works from "../Works/Works";
 import RemoteWork from "../Remote-work/RemoteWork";
 import Contacts from "../Contacts/Contacts";
 import Footer from "../Footer/Footer";
+import About from '../Abourt/About';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <main>
         <Main />
+        <About/>
         <Skills />
         <Works />
         <RemoteWork />

@@ -1,19 +1,22 @@
-import React from "react";
-import s from "./Main.module.css";
-import avatar from "../../assets/img/avatar.png";
+import React from 'react';
+import s from './Main.module.css';
+import avatar from '../../assets/img/photo.png';
 
 const Main = () => {
   return (
-    <section className={s.wrapper}>
-      <div className={s.blockAboutMe}>
-        <div className={s.textBlock}>
-          <p className={s.text}>
-            Hi, my name is Leonid Shuliak. I'm front-end developer
-          </p>
+      <section className={s.wrapper}>
+        <div className={s.blockAboutMe}>
+          <div className={s.textBlock}>
+            <p>
+              <span className={s.text}>Shuliak</span> Leonid
+            </p>
+            <p>Frontend
+              <span className={s.text} > Developer</span>
+            </p>
+          </div>
+          <img className={s.photo} src={avatar}/>
         </div>
-        <img className={s.photo} src={avatar} />
-      </div>
-    </section>
+      </section>
   );
 };
 

@@ -1,19 +1,17 @@
 .wrapper {
     padding: 0 5rem;
-    /*max-width: 80%;*/
-    background: rgba(0, 0, 0, .5);
+    background: rgba(250, 250, 250, .5);
 
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #fff;
 }
 
 .title {
     margin-left: 2rem;
-    border: 1px solid #fff;
+    font-size: 1.5rem;
 }
 
 .nav, .nav > ul {
@@ -25,10 +23,12 @@
 }
 
 .nav > ul li {
-    font-size: 1.5rem;
     margin-left: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
     list-style-type: none;
 }
+
 @media screen and (max-width: 992px) {
     .nav, .nav > ul {
         display: flex;

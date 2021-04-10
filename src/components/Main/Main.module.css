@@ -1,22 +1,30 @@
 .wrapper {
-    padding: 5rem;
+    /*padding: 0 5rem;*/
     /*max-width: 80%;*/
-    background: rgb(62, 110, 78);
+    /*background: rgb(62, 110, 78);*/
+    background: rgb(250,250,250);
+
 
 }
 
 .blockAboutMe {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     border: 1px solid #fff;
 }
 
 .textBlock {
+    color: #9e9a9a;
+    font-size: 1.5rem;
     max-width: 20rem;
-    border: 1px solid #fff;
 }
-
+.text {
+    color: #262525;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 @media screen and (max-width: 600px) {
     .photo {
         width: 10rem;

@@ -1,0 +1,13 @@
+.wrapper {
+
+}
+.blockAboutMe{
+    display: flex;
+}
+.tile{
+  flex-grow: 1;
+}
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+}
